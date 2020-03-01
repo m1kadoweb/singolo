@@ -93,3 +93,140 @@ h1 > span {
   color: #f06c64;
   transition: linear 0.3s;
 }
+
+.slider-section {
+  height: 600px;
+  background-color: #f06c64;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  
+  border: solid #ca4549;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  margin: 285px 0 0 3px;
+  
+}
+
+.arrow-left {
+  transform: rotate(135deg);
+  
+}
+
+.arrow-right {
+  margin-right: 3px;
+  transform: rotate(-45deg);
+}
+
+.arrow:hover {
+  border-color: #a3282c;  
+  transition: linear 0.3s;
+}
+
+.iphone-vertical {
+  position: absolute;
+  bottom: 34px;
+  left: 273px;
+}
+
+.iphone-vertical-bg {
+  position: absolute;
+  bottom: 116px;
+  left: 284px;
+  z-index: 2;
+}
+
+
+.iphone-horizontal {
+  position: absolute;
+  bottom: 156px;
+  right: 273px;
+}
+
+.iphone-horizontal-bg {
+  position: absolute;
+  bottom: 191px;
+  right: 361px;
+  z-index: 2;
+}
+
+.services-section {
+  height: 500px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.title-section {
+  padding-top: 59px;
+  color: #767e9e;
+  font-size: 30px;
+  font-family: "Lato";
+  font-weight: 900;
+  letter-spacing: 0.1px;
+}
+
+.description-section {
+  padding-top: 20px;
+  color: #767e9e;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 300;
+  line-height: 1.65;
+  letter-spacing: -0.18px;
+}
+
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 43px;
+}
+
+.services-item {
+  display: flex;
+  padding-bottom: 34px;
+  justify-content: space-between;
+  max-width: 32%;
+
+}
+
+.services-item-img {
+  padding-top: 3px;
+}
+
+.services-item-img img {
+  height: 60px;
+  width: 60px;
+}
+
+.services-item-content {
+  padding-left: 20px;
+  max-width: 240px;
+
+}
+
+.services-item-title {
+  color: #666d89;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.services-item-description {  
+  height: 60px;
+  margin-top: 7px;
+  line-height: 1.9;
+  color: #767e9e;
+  font-size: 12px;
+  text-align: justify;
+
+}
+
