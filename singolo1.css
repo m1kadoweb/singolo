@@ -7,21 +7,21 @@
 
 @font-face {
   font-family: "Lato";
-  src: url("./assets/Lato-Light.ttf");
+  src: url("./assets/font/Lato-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("./assets/Lato-Black.ttf");
+  src: url("./assets/font/Lato-Black.ttf");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("./assets/Lato-Regular.ttf");
+  src: url("./assets/font/Lato-Regular.ttf");
   font-weight: 500;
   font-style: normal;
 }
