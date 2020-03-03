@@ -100,6 +100,7 @@ h1 > span {
 }
 
 .slider {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -132,28 +133,28 @@ h1 > span {
 
 .iphone-vertical {
   position: absolute;
-  bottom: 34px;
-  left: 273px;
+  top: 52px;
+  left: 73px;
 }
 
 .iphone-vertical-bg {
   position: absolute;
-  bottom: 116px;
-  left: 284px;
+  top: 115px;
+  left: 83px;
   z-index: 2;
 }
 
 
 .iphone-horizontal {
   position: absolute;
-  bottom: 156px;
-  right: 273px;
+  top: 175px;
+  right: 70px;
 }
 
 .iphone-horizontal-bg {
   position: absolute;
-  bottom: 191px;
-  right: 361px;
+  top: 185px;
+  right: 159px;
   z-index: 2;
 }
 
