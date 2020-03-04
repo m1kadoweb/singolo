@@ -169,3 +169,29 @@ a .description-contacts:hover {
   background: #2d303a;
 }
 
+.about-social {
+  display: flex;
+  padding-top: 22px;  
+  padding-left: 787px;
+}
+
+.social {
+  height: 14px;
+  width: 15px;
+  padding: 8px;
+  margin-right: 7px;
+  color: #666d89;
+  border: 1px solid #666d89;
+  border-radius: 50%;
+}
+
+.footer-block {
+  display: flex;
+}
+
+.copyright {
+  padding-top: 20px;
+  color: #666d89;
+  font-family: "Loto", sans-serif;
+  font-size: 12px;
+}
