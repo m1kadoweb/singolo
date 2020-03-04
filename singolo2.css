@@ -50,7 +50,7 @@
   font-size: 30px;
   font-family: "Lato";
   font-weight: 900;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.35px;
 }
 
 .description-section {
@@ -113,5 +113,16 @@
 .portfolio-button4 {
   padding: 3px 5px;
 }
+
+.portfolio-imgs {
+  height: 601px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
 
 
