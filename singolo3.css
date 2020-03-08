@@ -165,14 +165,15 @@ a .description-contacts:hover {
 }
 
 .footer {
+  position: relative;
   height: 76px;
   background: #2d303a;
 }
 
 .about-social {
   display: flex;
-  padding-top: 22px;  
-  padding-left: 787px;
+  margin-top: 22px;  
+  margin-left: 786px;
 }
 
 .social {
@@ -190,8 +191,10 @@ a .description-contacts:hover {
 }
 
 .copyright {
-  padding-top: 20px;
+  position: absolute;
+  margin-top: 30px;
   color: #666d89;
   font-family: "Loto", sans-serif;
   font-size: 12px;
+  font-weight: 500;
 }
