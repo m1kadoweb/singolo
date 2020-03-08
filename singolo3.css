@@ -198,3 +198,14 @@ a .description-contacts:hover {
   font-size: 12px;
   font-weight: 500;
 }
+
+a .social:hover,
+a .social:hover #facebook,
+a .social:hover #googleplus,
+a .social:hover #twitter,
+a .social:hover #linkedin {
+  fill: rgb(194, 88, 88);
+  border: 1px solid rgb(194, 88, 88);
+  transition: linear 0.3s;
+}
+
