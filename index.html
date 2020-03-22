@@ -6,37 +6,45 @@
   <link rel="stylesheet" href="./style.css">
   <title>Singolo</title>
 </head>
-<body>
+<body id="home">
   <header class="header">
     <div class="container">      
       <h1 class="logo">SINGOLO<span class="star">*</span></h1>
       <nav class="nav">
         <ul class="navigation">
-          <li class="navigation-item"><a class="link-item" href="#">Home</a></li>
-          <li class="navigation-item"><a class="link-item" href="#">Services</a></li>
-          <li class="navigation-item"><a class="link-item" href="#">Portfolio</a></li>
-          <li class="navigation-item"><a class="link-item" href="#">About</a></li>
-          <li class="navigation-item"><a class="link-item" href="#">Contact</a></li>
+          <li class="navigation-item"><a class="link-item" href="#home">Home</a></li>
+          <li class="navigation-item"><a class="link-item" href="#services">Services</a></li>
+          <li class="navigation-item"><a class="link-item" href="#portfolio">Portfolio</a></li>
+          <li class="navigation-item"><a class="link-item" href="#about">About</a></li>
+          <li class="navigation-item"><a class="link-item" href="#contact">Contact</a></li>
         </ul>
       </nav>      
     </div>
   </header>
   <section class="slider-section">
     <div class="container">
-      <div class="slider">
-        <a href="#" class="arrow arrow-left"></a>
-        <div class="iphones">
-          <img class="iphone-vertical" src="./assets/img/iphone-vertical.png" alt="iphone">
-          <img class="iphone-vertical-bg" src="./assets/img/bg-iphone-1.jpg" alt="iphone background">
-          <img class="iphone-horizontal" src="./assets/img/iphone-horizontal.png" alt="iphone">
-          <img class="iphone-horizontal-bg" src="./assets/img/bg-iphone-2.jpg" alt="iphone background">
+      <div class="slider-show">      
+        
+        <div class="slider-item">
+          
+          <div class="iphones">
+            <img class="iphone-vertical" src="./assets/img/iphone-vertical.png" alt="iphone">
+            <img class="iphone-vertical-bg" src="./assets/img/bg-iphone-1.jpg" alt="iphone background">
+            <img class="iphone-horizontal" src="./assets/img/iphone-horizontal.png" alt="iphone">
+            <img class="iphone-horizontal-bg" src="./assets/img/bg-iphone-2.jpg" alt="iphone background">
+          </div>
+          
+        </div> 
+        <div class="slider-item">
+          <img class="img2-slider" src="./assets/img/slider2.png" alt="">
         </div>
-        <a href="#" class="arrow arrow-right"></a>
+        <a class="arrow arrow-left" onclick="minusSlide()"></a>
+        <a class="arrow arrow-right" onclick="plusSlide()"></a>
       </div>
     </div>
   </section>
 
-  <section class="services-section">
+  <section class="services-section" id="services">
     <div class="container">
       <h2 class="title-section">Our Services</h2>
       <p class="description-section">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -103,7 +111,7 @@
     </div>
   </section>
 
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <h2 class="title-portfolio">Portfolio</h2>
       <p class="description-portfolio">
@@ -131,7 +139,7 @@
       </div>
     </div>
   </section>
-  <section class="about-us">
+  <section class="about-us" id="about">
     <div class="container">
       <h2 class="title-portfolio">About Us</h2>
       <p class="description-portfolio">
@@ -270,7 +278,7 @@
     </div>
   </section>
 
-  <section class="get">
+  <section class="get" id="contact">
     <div class="container">
       <h2 class="title-section">Get a Quote</h2>
       <p class="description-section">
@@ -278,7 +286,7 @@
       </p>
       <div class="contacts">
         <div class="form-section">
-          <form action="#">         
+          <form action="#" method="get">         
             <input type="input" name="name" placeholder="Name (Required)" required>
             <input type="email" name="email" placeholder="Email (Required)" required>
             <input type="input" name="subject" placeholder="Subject">
@@ -320,6 +328,9 @@
 
     </div>
   </section>
+
+
+
   <footer class="footer">
     <div class="container">
       <div class="footer-block">
@@ -359,6 +370,18 @@
       </div>
     </div>
   </footer>
-
+  <div class="modal">
+    <div class="modal__content">
+        <h2 class="modal__header">The letter was sent</h2>
+        <h3 class="modal__title">Subject</h3>
+        <p id="resalt_subject" class="sub-p modal__text"></p>
+        <div>
+        <h3 class="modal__title">Description</h3>
+        <p id="resalt_description" class="sub-p modal__text"></p>
+        </div> 
+        <button id="modal__button" class="button modal__button">OK</button>
+    </div>
+</div>
+<script src="./index.js"></script>
 </body>
 </html>
